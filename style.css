@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
+
 .nav {
-    border: 1px solid black;
     width: 100vw;
     height: 5vh;
     margin-top: 1vh;
@@ -12,7 +13,8 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    font-size:.9rem;
+    font-size:.8rem;
+    color: rgba(0,0,0,0.87);
 }
 
 .navButton {
@@ -24,18 +26,24 @@
 {
     width: 2.1vw;
     display: flex;
+    margin-right: 0.3vw;
 }
 
 .navButton:nth-child(4){
-    padding-right: 1.5vw;
+    margin-right: 1.8vw;
+    background-color: #4285f4;
+    padding-top:.4vw;
+    padding-bottom:.4vw;
+    color:white;
+    font-weight: bold;
 }
 
 .logo {
     margin: 0 auto;
     width: 50%;
     height: 10%;
-    margin-top:16vh ;
-    margin-bottom: 3vh;
+    margin-top:15vh ;
+    margin-bottom: 2.7vh;
     display: flex;
     justify-content: center;
 }
@@ -46,16 +54,90 @@
 
 .searchbar {
     margin: 0 auto;
-    min-width: 55vw;
-    min-height: 8vh;
-    border: 1px solid gray;
+    width: 25vw;
+    height: 5vh;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius:25px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.searchbar img{
+    margin: 10px 10px;
+    width: 26px;
+    height: 21px
+}
+
+input {
+    width: 20vw;
+    height: 4.8vh;
+    border: 0px;
+}
+
 
 .buttons {
-    margin: 2vh auto;
-    background-color: aquamarine;
-    width: 30vw;
+    margin: 2.5vh auto;
+    width: 14vw;
     height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:.8rem;
+    color: rgba(0,0,0,0.87);
 }
 
+.button{
+    padding: 12px 15px;
+    background-color:#f2f2f2;
+}
 
+.languages {
+    text-align: center;
+    font-size: .8rem;
+    color: rgba(0,0,0,0.87);
+}
+
+.languages a{
+    padding: 0px 5px;
+    color: mediumblue;
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0vh;
+    border-top:.5px solid rgba(0,0,0,0.4);
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 4vh;
+    padding-top: 1vh;  
+}
+
+.footer a{
+    text-decoration: none;
+    padding-left: 1vw;
+    color: rgba(0,0,0,0.6);
+    font-size: .87rem;
+}
+.footer a:nth-child(5){
+    padding-right: 1vw;
+}
+
+.footer a:nth-child(1),.footer a:nth-child(2),.footer a:nth-child(3),.footer a:nth-child(4){
+    float: left;
+}
+.footer a:nth-child(5),.footer a:nth-child(6),.footer a:nth-child(7){
+    float: right;
+}
+.locationtag {
+    position: absolute;
+    font-size:.9rem;
+    bottom: 4vh;
+    border-top: .5px solid rgba(0,0,0,0.4);
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 4vh;
+    padding-top: 1vh;  
+    padding-left: 2vh;
+    color: rgba(0,0,0,0.6);
+}
