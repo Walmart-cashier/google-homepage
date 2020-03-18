@@ -19,15 +19,17 @@
     padding: 0.6vw;
     
 }
+
+.navButton:nth-child(3)
+{
+    width: 2.1vw;
+    display: flex;
+}
+
 .navButton:nth-child(4){
     padding-right: 1.5vw;
 }
-.navButton:nth-child(3)
-{
-    padding-right: 0;
-    width: 5vw;
-    display: flex;
-}
+
 .logo {
     margin: 0 auto;
     width: 50%;
@@ -38,7 +40,7 @@
     justify-content: center;
 }
 
-img {
+.logo img {
     width: 29%;
 }
 
