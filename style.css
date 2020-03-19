@@ -21,6 +21,10 @@
     padding: 0.6vw;
     
 }
+.navButton:hover{
+    color:dimgray;
+    text-decoration: underline;
+}
 
 .navButton:nth-child(3)
 {
@@ -38,6 +42,10 @@
     font-weight: bold;
 }
 
+.navButton:nth-child(4):hover{
+    text-decoration: none;
+    color:white;
+}
 .logo {
     margin: 0 auto;
     width: 50%;
